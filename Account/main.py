@@ -1,4 +1,4 @@
-from Account import Account
+FROM ACCOUNT IMPORT ACCOUNT
 
 
 def main():
