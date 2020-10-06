@@ -1,4 +1,4 @@
-class Account:
+CLASS ACCOUNT:
 	# CONSTRUCTOR UNTUK AKUN
 	def __init__(self, initial_balance):
 		self._initial_balance = initial_balance
