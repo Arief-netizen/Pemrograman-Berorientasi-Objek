@@ -4,30 +4,24 @@ Tulislah dan jelaskan perbedaan antara abstract class dan interface !
 jawaban :
 
 *Abstract Class*
-    Abstract Class adalah Class yang secara khusus dibuat untuk keperluan inheritance. 
- Tujuan dari pembuatan abstract class ini adalah untuk membuat definisi umum bagi class
- yang akan menjadi inheritance darinya.
+    Abstract Class adalah Class yang secara khusus dibuat untuk keperluan inheritance. Tujuan dari pembuatan abstract class ini adalah untuk membuat definisi umum 
+bagi class yang akan menjadi inheritance darinya.
 
-Abstract Class tidak dapat untuk diinstansiasi. Abstract method tidak memiliki implementasi, 
-sehingga penulisannya hanya dilakukan dengan mengikutkan semikolon, bukan blok method {} seperti pada biasanya. 
+Abstract Class tidak dapat untuk diinstansiasi. Abstract method tidak memiliki implementasi, sehingga penulisannya hanya dilakukan dengan mengikutkan semikolon, 
+bukan blok method {} seperti pada biasanya. 
 Abstract method ini dapat digunakan oleh Class turunannya dengan melakukan override.
 
-Abstract class hanya dapat dipergunakan sebagai super class, tetapi bisa juga untuk diturunkan dari class abstract lainnya. 
-Dan untuk mendeklarasikan sebuah abstract class digunakan keyword abstract, [abstract] class [class_name] 
-sebuah abstract class pada dasarnya tidak begitu jauh berbeda dengan class yang lainnya, 
-karena juga berisi method yang menggambarkan karakteristik dari kelas abstract tersebut, 
-bedanya adalah sebuah abstract class dapat berisi method tanpa diimplementasikan 
-artinya sebuah method tanpa tubuh, method seperti ini disebut method abstract
+Abstract class hanya dapat dipergunakan sebagai super class, tetapi bisa juga untuk diturunkan dari class abstract lainnya. Dan untuk mendeklarasikan sebuah abstract class
+digunakan keyword abstract, [abstract] class [class_name], sebuah abstract class pada dasarnya tidak begitu jauh berbeda dengan class yang lainnya, karena juga berisi method 
+yang menggambarkan karakteristik dari kelas abstract tersebut, bedanya adalah sebuah abstract class dapat berisi method tanpa diimplementasikan artinya sebuah method tanpa tubuh,
+method seperti ini disebut method abstract
 
 
 *Interface*
-    Sedangkan interface lebih berfungsi sebagai antarmuka yang menghubungkan komunikasi dengan code lain. 
-Misalnya membentuk hubungan antara sebuah object dengan object lain atau hubungan antara object sebagai penyedia dengan code pengguna
+    Sedangkan interface lebih berfungsi sebagai antarmuka yang menghubungkan komunikasi dengan code lain. Misalnya membentuk hubungan antara sebuah object dengan object lain 
+atau hubungan antara object sebagai penyedia dengan code pengguna
 
-Interface merupakan jenis khusus dari blok yang hanya berisi method constant (signature). 
-Interface mendefinisikan sebuah signature dari sebuah kumpulan method tanpa body. 
-Interface mendefinisikan sebuah cara standar dan seccara umum dalam menetapkan sifat dari class. 
-Mereka menyediakan class, tanpa memperhatikan lokasi dalam hirarki class, untuk mengimplementasikan sifat yang umum. 
-Dengan catatan bahwa interface-interface juga menunjukkan polimorfisme, 
-dikarenakan program dapat memanggil method interface dan versi yang tepat dari method yang akan dieksekusi 
-tergantung dari tipe object yang melewati pemanggil method interface
+Interface merupakan jenis khusus dari blok yang hanya berisi method constant (signature). Interface mendefinisikan sebuah signature dari sebuah kumpulan method tanpa body. 
+Interface mendefinisikan sebuah cara standar dan seccara umum dalam menetapkan sifat dari class. Mereka menyediakan class, tanpa memperhatikan lokasi dalam hirarki class, 
+untuk mengimplementasikan sifat yang umum. Dengan catatan bahwa interface-interface juga menunjukkan polimorfisme, dikarenakan program dapat memanggil method interface 
+dan versi yang tepat dari method yang akan dieksekusi tergantung dari tipe object yang melewati pemanggil method interface.
