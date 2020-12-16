@@ -1,20 +1,17 @@
-*Abstract Class*
+Soal : 
+Tulislah dan jelaskan perbedaan antara abstract class dan interface !
 
->> Method boleh bersifat static
->> Method boleh bersifat final
->> Bisa berisi abstract dan non-abstract method
->> Harus menuliskan sendiri modifiernya
->> Suatu abstact class hanya bisa meng-extend satu abstract class lainnya
->> Suatu abstract class hanya bisa meng-extend satu abstract class dan meng-implement beberapa interface
->> Bisa mendeklarasikan constant dan instance variable
+jawaban :
+
+*Abstract Class*
+  Abstract Class adalah Class yang secara khusus dibuat untuk keperluan inheritance. Tujuan dari pembuatan abstract class ini adlaah untuk membuat definisi umum bagi class yang akan menjadi inheritance darinya
+
+Abstract Class tidak dapat untuk diinstansiasi. Abstract method tidak memiliki implementasi, sehingga penulisannya hanya dilakukan dengan mengikutkan semikolon, bukan blok method {} seperti pada biasanya. Abstract method ini dapat digunakan oleh Class turunannya dengan melakukan override
+
+Abstract class hanya dapat dipergunakan sebagai super class, tetapi bisa juga untuk diturunkan dari class abstract lainnya. Dan untuk mendeklarasikan sebuah abstract class digunakan keyword abstract, [abstract] class [class_name] Sebuah abstract class pada dasarnya tidak begitu jauh berbeda dengan class yang lainnya, karena juga berisi method yang menggambarkan karakteristik dari kelas abstract tersebut, bedanya adalah sebuah abstract class dapat berisi method tanpa diimplementasikan artinya sebuah method tanpa tubuh, method seperti ini disebut method abstract
 
 
 *Interface*
+  Sedangkan interface lebih berfungsi sebagai antarmuka yang menghubungkan komunikasi dengan code lain. Misalnya membentuk hubungan antara sebuah object dengan object lain atau hubungan antara object sebagai penyedia dengan code pengguna
 
->> Method tidak boleh bersifat static
->> Method tidak boleh bersifat final
->> Hanya boleh berisi abstract method
->> Tidak perlu susah-susah untuk menulis public abstract didepan nama method. Karena secara implisit, modifier untuk method di interface adalah public dan abstract
->> Suatu interface bisa meng-extend satu atau lebih interface lainnya
->> Suatu interface hanya bisa meng-extend interface lainnya. Dan tidak bisa meng-implement class atau interface lainnya
->> Hanya bisa mendeklarasikan constant. Secara implisit variable yang dideklarasikan di interface bersifat public, static dan final
+Interface merupakan jenis khusus dari blok yang hanya berisi method constant (signature). Interface mendefinisikan sebuah signature dari sebuah kumpulan method tanpa body. Interface mendefinisikan sebuah cara standar dan seccara umum dalam menetapkan sifat dari class. Mereka menyediakan class, tanpa memperhatikan lokasi dalam hirarki class, untuk mengimplementasikan sifat yang umum. Dengan catatan bahwa interface-interface juga menunjukkan polimorfisme, dikarenakan program dapat memanggil method interface dan versi yang tepat dari method yang akan dieksekusi tergantung dari tipe object yang melewati pemanggil method interface
