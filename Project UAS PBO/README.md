@@ -1,5 +1,5 @@
-# Projek Akhir Mata Kuliah Pemrograman Berorientasi Objek Aplikasi Permainan Catur
-
+# Projek Akhir Mata Kuliah Pemrograman Berorientasi Objek
+# Aplikasi Permainan Catur
 
 ---
 Oleh                : Imam Arief Al Baihaqy
