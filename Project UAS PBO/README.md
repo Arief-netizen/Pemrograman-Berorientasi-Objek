@@ -1,4 +1,4 @@
-# Projek Akhir Mata Kuliah PBO Aplikasi Permainan Catur
+# Projek Akhir Mata Kuliah Pemrograman Berorientasi Objek Aplikasi Permainan Catur
 
 
 ---
