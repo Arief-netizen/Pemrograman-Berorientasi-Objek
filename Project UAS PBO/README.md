@@ -1,7 +1,7 @@
-# Projek Akhir Pemrograman Berorientasi Objek
+# Projek Akhir Pemrograman Berorientasi Objek Aplikasi Permainan Catur
 
 ---
-Aplikasi Permainan Catur
+
 ---
 Oleh                : Imam Arief Al Baihaqy
 ---
