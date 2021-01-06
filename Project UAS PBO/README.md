@@ -1,4 +1,4 @@
-# Projek Akhir Pemrograman Berorientasi Objek          Aplikasi Permainan Catur
+# Projek UAS Pemrograman Berorientasi Objek Aplikasi Permainan Catur
 
 
 ---
