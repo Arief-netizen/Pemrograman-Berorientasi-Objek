@@ -1,4 +1,4 @@
-# Projek UAS Pemrograman Berorientasi Objek Aplikasi Permainan Catur
+# Projek Akhir Mata Kuliah PBO Aplikasi Permainan Catur
 
 
 ---
