@@ -1,7 +1,7 @@
 # Projek Akhir Pemrograman Berorientasi Objek
 
 Aplikasi Permainan Catur
----
+
 Oleh                : Imam Arief Al Baihaqy
 ---
 NIM                 : 19051397006
